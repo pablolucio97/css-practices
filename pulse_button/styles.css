@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+    background-color: #55ff;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 5px #fff;
+    padding: 10px;
+    box-shadow: 0 0 35px 5px #55ff;
+    animation: pulseButton 3s infinite;
+}
+
+@keyframes pulseButton{
+    0%{
+        box-shadow: 0 0 5px 5px #99ee00,
+    }
+    50%{
+        box-shadow: 0 0 50px 5px #55ee00, 0 0 15px 5px #fff;
+    }
+    100%{
+        box-shadow:  0 0 5px 5px #99ee00, 
+    }
+
+}
