@@ -18,6 +18,7 @@ body{
     height: 4rem;
     border: none;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     border-radius: 4px;
     box-shadow: 0 0 15px #55ff;
     animation: rgbButton 10s infinite;
